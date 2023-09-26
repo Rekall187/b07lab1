@@ -17,7 +17,7 @@ public class Polynomial{
     public double evaluate (double num){
         double temp = 0.0;
         //Polynomial axe = new Polynomial(this.coefficient);
-        for (int i = 0; i< axe.coefficient.length; i++){
+        for (int i = 0; i< this.coefficient.length; i++){
             double hold = this.coefficient[i];
             for (int c = 0; c < i; c++){
                 hold = hold*num;
